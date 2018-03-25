@@ -7,4 +7,4 @@ Using :
 - Databinding
 
 
-![download on playstore](https://play.google.com/store/apps/details?id=com.annasblackhat.onlineshop)
+![Get it](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png)
