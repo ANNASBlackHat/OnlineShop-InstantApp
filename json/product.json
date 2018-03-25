@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "product" : "Xiaomi Mi A1 64GB - Gold (Garansi Resmi TAM)",
+    "price" : 78,
+    "description" : "Original Xiaomi Mi A1",
+    "images": ["https://img.banggood.com/thumb/large/oaupload/banggood/images/F9/FA/2fc56dae-445a-4e6c-b3b6-11adb28f27bc.jpg"],
+    "likes" : 371,
+    "sold" : 669,
+    "rating": 4.9
+  },
+  {
+    "id": 2,
+    "product" : "Nubia M2 Global Rom 5.5 inch 4GB RAM 128GB ROM Qualcomm Snapdragon 625 Octa Core 4G Smartphone",
+    "price" : 299,
+    "description" : "Enhanced with the latest version of nubia's groundbreaking NeoVision system, the M2's dual 13MP cameras not only create a depth-of-field effect that keeps faces sharp while creating a beautifully blurred background, but also beautify faces in real time.",
+    "images": ["https://cdn2.gsmarena.com/vv/bigpic/zte-nubia-m2.jpg"],
+    "likes" : 371,
+    "sold" : 669,
+    "rating": 4.9
+  },
+  {
+    "id": 3,
+    "product" : "Google Voice Control Android TV 7.1 OS Amlogic S905W 2GB16GB Streaming Box Google Player Store Netflix Youtube Stalker VONTAR V",
+    "price" : 30,
+    "description" : "Brand Name:VONTAROTA, Update:NoInternal Storage:16GB, eMMCWeight:0.47System, Upgrade:YesMemory:2G, DDR3OS:AndroidEthernet:100MWireless:YesGOOGLE Cast:NoPower:DC 5V,2ARemote Control:Included",
+    "images": ["https://i.pinimg.com/736x/ec/91/30/ec91307024c7ed91923cab42a2dfb0a9.jpg"],
+    "likes" : 31,
+    "sold" : 69,
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "product" : "SENBONO W6S Bluetooth Smart Bracelet Activity Tracker Dynamic Heart Rate Monitoring Smart Band with 0.96 inches TFT Color Screen",
+    "price" : 23,
+    "description" : "Brand Name:SENBONO Language:French,Japanese,Italian,Russian,Spanish,Portuguese,English,German,KoreanTouch Screen:YesStyle:SportBand Detachable:YesFunction:Alarm Clock,Passometer,Social Media Notifications,Message Reminder,Sleep Tracker,Activity Tracker,Heart Rate Tracker,Call Reminder,Fitness TrackerScreen Type:Color LCDApplication Age Group:AdultModel:W6S",
+    "images": ["https://ae01.alicdn.com/kf/HTB1XivMnxrI8KJjy0Fpq6z5hVXax/SENBONO-W6S-0-96-TFT-Color-Screen-Bluetooth-Smart-Fitness-Bracelet-Sleep-Dynamic-Heart-Rate-Monitor.jpg_640x640.jpg"],
+    "likes" : 95,
+    "sold" : 931,
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "product" : "Hollow Mechanical Watch with Analog Round Dial Leather Watchband  -  GOLDEN AND BLACK ",
+    "price" : 23,
+    "description" : "Additional Purchase Deal: If Cart Subtotal exceeds $60.00, you can purchase 1 Add-On for $1.44, a Cart Subtotal over $100.00 allows you to purchase 1 Add-On for $8.44, Discounts are automatically applied to your shopping cart before checkout",
+    "images": ["https://gloimg.gbtcdn.com/gb/201210/goods-img/1350952529597-P-442685.jpg"],
+    "likes" : 324,
+    "sold" : 611,
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "product" : "Alfawise H96 Mini TV Box  -  EU PLUG  BLACK 2",
+    "price" : 60,
+    "description" : "Alfawise H96 Mini adopts Amlogic T962E chip, comes with quad-core Cortex-A53 CPU up to 1.5GHz and ARM Mali-450MP GPU up to 750MHz. High performance, high integration, low power consumption. It runs on the Android 7.1, which has good performance. You can connect to a world of content and entertainment at home. Smoothly watching TV shows, movies, browsing webpage and photos, and playing Android games with your family and friends. It is the best choice for you to have the smooth experience to watch the video or play games.",
+    "images": ["https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/10/24/goods-img/1508805130659332262.jpg"],
+    "likes" : 721,
+    "sold" : 1641,
+    "rating": 4
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
