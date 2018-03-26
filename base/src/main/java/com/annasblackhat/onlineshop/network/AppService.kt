@@ -1,5 +1,6 @@
-package com.annasblackhat.onlineshop
+package com.annasblackhat.onlineshop.network
 
+import com.annasblackhat.onlineshop.model.Product
 import retrofit2.Call
 import retrofit2.http.GET
 

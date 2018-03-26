@@ -1,4 +1,4 @@
-package com.annasblackhat.onlineshop
+package com.annasblackhat.onlineshop.model
 
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable

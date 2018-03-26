@@ -2,24 +2,26 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.annasblackhat.onlineshop">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:name=".OnlineShopApp"
+        android:name=".app.OnlineShopApp"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+        <meta-data
             android:name="aia-compat-api-min-version"
             android:value="1" />
 
-        <activity android:name=".MainActivity">
-            <intent-filter android:order="1">
+        <activity android:name=".ui.MainActivity">
+            <intent-filter android:order="1"  android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.BROWSABLE" />
                 <category android:name="android.intent.category.DEFAULT" />
 
@@ -28,11 +30,25 @@
                     android:pathPattern="/online-shop/main"
                     android:scheme="https" />
             </intent-filter>
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <intent-filter android:order="1" android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="http"
+                    android:host="blog.uniq.id"
+                    android:pathPattern="/online-shop/main" />
+            </intent-filter>
+            <meta-data
+                android:name="default-url"
+                android:value="https://blog.uniq.id/online-shop/main" />
         </activity>
     </application>
 

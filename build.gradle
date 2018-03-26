@@ -19,10 +19,13 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://jitpack.io' }
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+project.extensions.add("compileSdkVersion", 26)
+project.extensions.add("versionCode", 5)
+project.extensions.add("versionName", "1.5")

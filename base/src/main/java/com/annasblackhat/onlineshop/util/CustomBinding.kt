@@ -1,7 +1,8 @@
-package com.annasblackhat.onlineshop
+package com.annasblackhat.onlineshop.util
 
 import android.databinding.BindingAdapter
 import android.widget.ImageView
+import com.annasblackhat.onlineshop.R
 import com.squareup.picasso.Picasso
 
 /**
@@ -9,7 +10,7 @@ import com.squareup.picasso.Picasso
  */
 
 @BindingAdapter("imageUrl")
-fun setImageUrl(img: ImageView, url: String){
+fun setImageUrl(img: ImageView, url: String?){
     Picasso.get()
             .load(url)
             .placeholder(R.mipmap.ic_launcher)

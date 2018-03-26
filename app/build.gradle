@@ -2,18 +2,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 26
-    
-
+    compileSdkVersion rootProject.compileSdkVersion
 
     defaultConfig {
         applicationId "com.annasblackhat.onlineshop"
-        minSdkVersion 23
+        minSdkVersion 21
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
-
-
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
     }
 
     buildTypes {
@@ -23,7 +19,7 @@ android {
        }
     }
     dataBinding{
-        enabled true
+        enabled = true
     }
 }
 

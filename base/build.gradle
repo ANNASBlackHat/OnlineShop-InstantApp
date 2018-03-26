@@ -4,13 +4,13 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion rootProject.compileSdkVersion
     baseFeature true
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 21
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
     }
     buildTypes {
         release {
@@ -19,7 +19,7 @@ android {
         }
     }
     dataBinding{
-        enabled true
+        enabled = true
     }
 }
 
@@ -29,14 +29,11 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     kapt 'com.android.databinding:compiler:3.0.1'
 
-    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
-    implementation "com.squareup.retrofit2:converter-gson:2.4.0"
-    implementation "com.squareup.okhttp3:logging-interceptor:3.6.0"
+    api 'com.squareup.retrofit2:retrofit:2.4.0'
+    api "com.squareup.retrofit2:converter-gson:2.4.0"
+    api "com.squareup.okhttp3:logging-interceptor:3.6.0"
     implementation 'com.android.support:recyclerview-v7:26.1.0'
-    implementation('com.github.ANNASBlackHat:BetterAdapter:1.0.3') {
-        exclude group: 'com.android.support'
-    }
-    implementation ('com.squareup.picasso:picasso:2.71828'){
+    api ('com.squareup.picasso:picasso:2.71828'){
         exclude group: 'com.android.support'
     }
 

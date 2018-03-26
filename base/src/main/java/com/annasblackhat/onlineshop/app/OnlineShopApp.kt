@@ -1,6 +1,8 @@
-package com.annasblackhat.onlineshop
+package com.annasblackhat.onlineshop.app
 
 import android.app.Application
+import com.annasblackhat.onlineshop.BuildConfig
+import com.annasblackhat.onlineshop.network.AppService
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -16,7 +18,7 @@ class OnlineShopApp: Application() {
     private lateinit var service: AppService
 
     companion object {
-        val BASE_URL = "https://raw.githubusercontent.com/ANNASBlackHat/OnlineShop---InstantApp/master/json/"
+        val BASE_URL = "https://raw.githubusercontent.com/ANNASBlackHat/OnlineShop-InstantApp/master/json/"
     }
 
     override fun onCreate() {

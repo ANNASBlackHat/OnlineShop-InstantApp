@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Online Shop</string>
+    <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"https://blog.uniq.id\",\n  }\n}]</string>
 </resources>

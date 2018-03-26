@@ -3,8 +3,15 @@
     package="com.annasblackhat.onlineshop.feature">
 
     <application>
-        <activity android:name=".ProductDetailActivity">
-            <intent-filter android:order="1">
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+        <activity
+            android:name=".ProductDetailActivity"
+            android:label="Online Shop - Detail">
+            <intent-filter
+                android:order="1"
+                android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.BROWSABLE" />
@@ -12,8 +19,21 @@
 
                 <data
                     android:host="blog.uniq.id"
-                    android:pathPattern="/online-shop/detail"
-                    android:scheme="https" />
+                    android:scheme="https"
+                    android:pathPrefix="/online-shop/detail" />
+            </intent-filter>
+            <intent-filter
+                android:order="1"
+                android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="http"
+                    android:host="blog.uniq.id"
+                    android:pathPrefix="/online-shop/detail" />
             </intent-filter>
 
         </activity>
