@@ -12,4 +12,4 @@ Using :
 ### Link Availables
 http://blog.uniq.id/online-shop/main
 
-http://blog.uniq.id/online-shop/product
+http://blog.uniq.id/online-shop/detail/1
