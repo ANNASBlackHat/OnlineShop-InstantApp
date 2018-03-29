@@ -27,5 +27,5 @@ task clean(type: Delete) {
 }
 
 project.extensions.add("compileSdkVersion", 26)
-project.extensions.add("versionCode", 5)
-project.extensions.add("versionName", "1.5")
+project.extensions.add("versionCode", 6)
+project.extensions.add("versionName", "1.6")
