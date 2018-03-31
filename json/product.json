@@ -58,6 +58,26 @@
     "likes" : 721,
     "sold" : 1641,
     "rating": 4
+  },
+  {
+    "id": 7,
+    "product" : "Xiaomi Mi A1 MiA1 Global Version 5.5 inch 4GB RAM 32GB Snapdragon 625 Octa core 4G Smartphone",
+    "price" : 189,
+    "description" : "Garansi Resmi tAm Xiaomi MI A1 Ram 4GB Rom 64GB Global Official. Warna : Black, Ram : 4GB, Memory : 64GB, Layar 5.5 inch, Chipset Qualcomm MSM8917 Snapdragon 625, Octa-core 2.0 GHz Cortex-A53, Adreno 506, Kamera 12MP/12MP, SD Card Support up to 128 GB (uses SIM 2 slot), Battery 3080 mAh",
+    "images": ["https://s3.bukalapak.com/img/8293208642/w-300/xiaomi_MI_A1_64GB___TAM_garansi_resmi_1_tahun_.jpg.webp"],
+    "likes" : 831,
+    "sold" : 2749,
+    "rating": 3
+  },
+  {
+    "id": 8,
+    "product" : "ZTE Nubia Z17 mini Gobal Version 5.2 inch 4GB 64GB Snapdragon 652 Octa core 4G Smartphone",
+    "price" : 188,
+    "description" : "Global Firmware ZTE Nubia Z17 Mini 5.2 Snapdragon 652 MSM8976 Octa Core 4GB RAM 64GB ROM 1920X1080 Dual Rear Mobile Phone ... Battery Type: Not Detachable; Battery Capacity(mAh): 2950mAh; RAM: 4G; CPU: Octa Core; SIM Card Quantity: Dual SIM Cards; Display Size: 5.2; ROM: 64G",
+    "images": ["https://image2.geekbuying.com/ggo_pic/2018-03-22/Global-Version-ZTE-Nubia-Z17mini-5-2-Inch-Smartphone-Black-Gold-578106-.jpg"],
+    "likes" : 991,
+    "sold" : 1611,
+    "rating": 4
   }
 ]
 

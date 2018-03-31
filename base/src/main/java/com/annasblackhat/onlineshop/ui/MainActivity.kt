@@ -12,6 +12,7 @@ import com.annasblackhat.onlineshop.app.OnlineShopApp
 import com.annasblackhat.onlineshop.model.Product
 import com.annasblackhat.onlineshop.util.GlobalAdapter
 import com.annasblackhat.onlineshop.util.GlobalViewHolder
+import com.google.android.instantapps.InstantApps
 import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -55,5 +56,16 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+
+        if(!InstantApps.isInstantApp(this))
+            btn_install.visibility = View.GONE
+
+        btn_install.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://blog.uniq.id/online-shop/main"))
+            intent.addCategory(Intent.CATEGORY_BROWSABLE)
+            intent.`package` = packageName
+
+            InstantApps.showInstallPrompt(this, intent,1, null)
+        }
     }
 }
